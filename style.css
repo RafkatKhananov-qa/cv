@@ -1,0 +1,103 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(112, 121, 194);
+  color: rgba(19, 0, 0, 0.318);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100 vw;
+  font-family: Verdana, Tahoma, sans-serif;
+  background: url(https://kartinkin.net/uploads/posts/2021-07/1626143202_22-kartinkin-com-p-belii-fon-s-uzorami-krasivo-22.png);
+}
+header {
+  width: 95%;
+  max-width: 788px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  margin-top: 15px;
+}
+.share-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(12, 10, 10);
+}
+.container {
+  width: 500px;
+  max-width: 680px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color:rgb(21, 21, 18);
+}
+
+a {
+  text-decoration: none ;
+  color: rgb(240, 240, 240);
+
+}
+
+.tile {
+width: 100%;
+background-color: rgb(37, 37, 37);
+margin: 7px;
+border-radius: 17px;
+display: flex; 
+justify-content: space-between;
+
+
+}
+.tile-share-button {
+  margin: 8px;
+  width: 40 px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(26, 12, 12);
+}
+.icon {
+  margin: 4px 8 px;
+  width: 44px;
+  height: 44 px;
+}
+
+.tile:hover {
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+div.image-container {
+  background: white;
+  color: pink;
+
+}
+.container:hover {
+  border: 3px solid #FFD700; 
+}
+
+.photo:hover {
+  border: 3px solid #FFD700;
+}
+
+.icon:hover {
+  border: 3px solid #FFD700;
+}
+
+.button:hover {
+  border: 3px solid rgba(185, 183, 202, 0);
+}
+
+.me1.png:hover {
+  border: 3px solid rgba(52, 171, 58, 0.551);
+}
+
+
