@@ -84,20 +84,21 @@ div.image-container {
   border: 3px solid #FFD700; 
 }
 
-.photo:hover {
+div.image-container:hover {
+  border: 3px solid #a2ff00;
+}
+
+div.icon:hover {
   border: 3px solid #FFD700;
 }
 
-.icon:hover {
-  border: 3px solid #FFD700;
-}
-
-.button:hover {
-  border: 3px solid rgba(185, 183, 202, 0);
+div.button:hover {
+  border: 3px solid rgba(182, 43, 201, 0.732);
 }
 
 .me1.png:hover {
   border: 3px solid rgba(52, 171, 58, 0.551);
 }
+
 
 
